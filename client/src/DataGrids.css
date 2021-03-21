@@ -1,0 +1,48 @@
+.data-grids-schedule, .data-grids-load {
+	margin: 10px;
+}
+.data-grid-button {
+  display: inline-block;
+  margin: 10px;
+  width: 70px; 
+  height: 30px; 
+  text-align: center;
+  border: gray;
+  background-color: #E8562A;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+p {
+	text-align: center;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#load {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#load td, #load th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#load tr:nth-child(even){background-color: #f2f2f2;}
+
+#load tr:hover {background-color: #ddd;}
+
+#load th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
